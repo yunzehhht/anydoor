@@ -1,6 +1,7 @@
 let a = 1;
-function fun(){
-    return  a++
+function fun() {
+	return a++;
 }
-fun() 
-console.error("no ")
+fun();
+console.error("no");
+
