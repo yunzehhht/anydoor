@@ -1,10 +1,12 @@
 module.exports = {
+	"root":true,
     "env": {
         "browser":false,
         "mocha": true,
         "node": true,
         "es6": true
-    },
+	},
+	"parser":"babel-eslint",
     "extends": "eslint:recommended",
     "parserOptions": {
         "ecmaVersion": 2016,
@@ -30,8 +32,5 @@ module.exports = {
         //     "error",
         //     "always"
         // ]
-    },
-    // "globals":{
-    //     "window":true
-    // }
+    }
 };
